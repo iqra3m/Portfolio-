@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playfair+Display:wght@800&family=Shrikhand&display=swap');
+
+body{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #dafced;
+}
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+
+}
+img{
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 3);
+}
+
+.img-fluid{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+}
+.gallery .preview{
+    width:100%;
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.fa{
+  font-size: 5em;
+  color: #025d61;
+}
+.fa-instagram{
+  font-size: 1em;
+}
+.fa-facebook-official{
+  font-size: 1em;
+}
+.fa-envelope{
+  font-size: 1em;
+}
+h1{
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Playfair Display', sans-serif;
+  color: #025d61;
+}
+h3{
+    font-family: 'Playfair Display', sans-serif;
+  color: #025d61;
+}
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+nav{
+  background-color: #5afeec;
+  border-top: 2px darkpurple solid;
+  border-bottom: 2px darkpurple solid;
+  padding: 5px;
+  font-family: 'Playfair Display', sans-serif;
+}
+/* Vertical Navigation bar */
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color: black;
+}
+nav a:visited{
+  color: black;
+}
+nav a:hover{
+  color: gray;
+}
+nav a:active{
+  color: lightgray;
+}
+footer{
+  border-top: 1px solid gray;
+  padding: 10px;
+  background-color: #dafced;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 2em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}

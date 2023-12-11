@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Concert+One&family=Titan+One&display=swap');
+body{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #9f8170;
+}
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.home-hero{
+  background-image: url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: #042837;
+  padding: 10px 10px 10px 30px;
+}
+img{
+  display:block;
+  margin:0 auto;
+  border-radius: 20%;
+}
+blockquote{
+    background-color: #79443b;
+    border-left: 10px solid gray;
+    padding: 30px;
+    color: white;
+}
+h1{
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Agbalumo', sans-serif;
+  color: white;
+
+}
+h2{
+  color: #79443b;
+  font-family: 'Agbalumo', sans-serif;
+}
+p{
+  text-align: center;
+  color: white;
+}
+a:link{
+color: purple;  
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+nav{
+  background-color: #79443b;
+  border-top: 2px darkpurple solid;
+  border-bottom: 2px darkpurple solid;
+  padding: 5px;
+}
+/* Vertical Navigation bar */
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: gray;
+}
+nav a:active{
+  color: lightgray;
+}
+.fa{
+  color: white;
+  font-size: 5em;
+}
+footer{
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px;
+  background-color: #79443b;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 2em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
